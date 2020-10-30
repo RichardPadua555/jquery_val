@@ -1,0 +1,16 @@
+<div class="container mb-3 mt-3 alert alert-info">
+  <h2><%=(@user.new_record? ? 'Add Details' : 'Update Details')  %></h2>
+  <!-- bootstrap form has been used here with a bootstrap_form gem -->
+  <%= bootstrap_form_with(model: @user, local: true , html: { id: 'form-validate' }) do |f| %>
+    <%= f.text_field :first_name , placeholder: 'First Name' , name: 'first_name'%>
+    <%= f.text_field :middle_name , placeholder: 'Middle Name' , name: 'middle_name' %>
+    <%= f.text_field :last_name  , placeholder: 'Last Name' , name: 'last_name'%>
+    <%= f.text_field :date_of_birth , placeholder: 'DOB' , name: 'date_of_birth' , id: 'datepicker' , data: { provide: 'datepicker'} %>
+    <%= f.text_field :age  , placeholder: 'Age' , name: 'age' %>
+    <%= f.email_field :email , placeholder: 'Email' , name: 'email' %>
+    <%= f.text_field :mobile_number  , placeholder: 'Mobile Number' , name: 'mobile_number' %>
+    <%= f.text_field :address , placeholder: 'Address' , name: 'address' %>
+    <%= f.text_field :qualification , placeholder: 'Qualification' , name: 'qualification'  %>
+    <%= f.submit "Add Details" , class: 'btn btn-success' %>
+  <% end %>
+</div>

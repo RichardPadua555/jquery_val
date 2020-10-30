@@ -1,0 +1,35 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: jquery_validation_development
+  username: root
+  password: 'root123'
+  port: 3306
+  host: 127.0.0.1
+  
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: jquery_validation_test
+  username: root
+  password: 'root123'
+  port: 3306
+  host: 127.0.0.1
+ 
+staging:
+  adapter: mysql2
+  encoding: utf8
+  database: jquery_validation_staging
+  username: root
+  password: 'root123'
+  port: 3306
+  host: 127.0.0.1
+ 
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: jquery_validation_production
+  username: root
+  password: 'root123'
+  port: 3306
+  host: 127.0.0.1
