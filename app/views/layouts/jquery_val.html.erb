@@ -14,5 +14,10 @@
   <body>
     <%= render :partial => "layouts/jquery_val/navbar" %>
     <%= yield %>
+
+    <script>
+      <%= yield :javascript_footer %>
+    </script>
+    
   </body>
 </html>

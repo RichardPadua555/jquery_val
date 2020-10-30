@@ -1,4 +1,7 @@
-<%= render :partial => 'users/new/form' %>
+<%= render :partial => 'users/form/form' %>
 
+<%= content_for :javascript_footer do %>
+  <%= render :partial=>"users/form/form_validate.js.erb" %>
+<% end %>
 
 

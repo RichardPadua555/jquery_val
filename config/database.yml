@@ -3,7 +3,7 @@ development:
   encoding: utf8
   database: jquery_validation_development
   username: root
-  password: 'root123'
+  password: 'Rootpasswordgiven@123'
   port: 3306
   host: 127.0.0.1
   
@@ -12,7 +12,7 @@ test:
   encoding: utf8
   database: jquery_validation_test
   username: root
-  password: 'root123'
+  password: 'Rootpasswordgiven@123'
   port: 3306
   host: 127.0.0.1
  
@@ -21,7 +21,7 @@ staging:
   encoding: utf8
   database: jquery_validation_staging
   username: root
-  password: 'root123'
+  password: 'Rootpasswordgiven@123'
   port: 3306
   host: 127.0.0.1
  
@@ -30,6 +30,6 @@ production:
   encoding: utf8
   database: jquery_validation_production
   username: root
-  password: 'root123'
+  password: 'Rootpasswordgiven@123'
   port: 3306
   host: 127.0.0.1
